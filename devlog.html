@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev Log · Johnny Pershing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="devlog.html">Dev Log</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Dev Log</h1>
+    <p>A running record of building this site from scratch, as a way to learn web development.</p>
+
+    <!-- Newest entries go at the top -->
+    <article class="entry">
+      <h2>Local workflow, shared CSS, and this log</h2>
+      <time datetime="2026-10-14">October 14, 2026</time>
+      <p>
+        Cloned the repo and set up VS Code with Live Server, so the page reloads
+        every time I save. Moved my CSS out of the HTML into a shared
+        <code>styles.css</code> file, added a navigation bar using semantic
+        <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, and
+        <code>&lt;main&gt;</code> elements, and laid it out with flexbox.
+        Then built this dev log page.
+      </p>
+      <!-- <figure>
+        <img src="images/2026-10-14-devlog.png" alt="The new dev log page with navigation bar">
+        <figcaption>The dev log page and new navigation.</figcaption>
+      </figure> -->
+    </article>
+
+    <article class="entry">
+      <h2>Hello, world</h2>
+      <time datetime="2026-10-13">October 13, 2026</time>
+      <p>
+        Created a GitHub repository named <code>jjpersh.github.io</code>,
+        wrote a single <code>index.html</code> with my name and a short bio,
+        and deployed it with GitHub Pages. Every push to the main branch now
+        rebuilds and publishes the site automatically.
+      </p>
+      <figure>
+        <img src="images/day1.png" alt="The first version of my homepage">
+        <figcaption>Version one: a single page.</figcaption>
+      </figure>
+    </article>
+  </main>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.entry {
+  border-top: 1px solid #ddd;
+  padding-top: 1.5rem;
+  margin-top: 2rem;
+}
+
+.entry time {
+  display: block;
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+figure { margin: 1rem 0; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+figcaption {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.4rem;
+}
+
+code {
+  background: #f3f3f3;
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+}
